@@ -25,7 +25,7 @@ public class SpringbootTestApplication {
 	}
 
 	@Scheduled(fixedRate = 60000)
-	public void printHelloWorld() {
+	public void print() {
 		log.info("Hey! Let me do my job!");
 	}
 }
